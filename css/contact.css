@@ -1,0 +1,30 @@
+section.contact_sec p.helpyou {
+    font-size: 45px;
+    color: #444444;
+    line-height: 1;
+    border-bottom: 4px solid;
+    width: 124px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+p.contact_txt {
+    font-family: "worksans";
+    font-size: 14px;
+    margin-top: 2rem;
+}
+section.info-sec p.contact_txt {
+    margin-top: 1rem;
+}
+.info-all a {
+    color: #8bc440;
+    font-family: "worksans-m";
+}
+section.info-sec.text-center {
+    padding: 4rem 0;
+}
+.info-all h4 {
+    color: #000;
+}
+section.contact_sec {
+    padding-top: 4rem;
+}

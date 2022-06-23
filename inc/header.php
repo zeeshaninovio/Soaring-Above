@@ -3,20 +3,26 @@
     <div class="header-green">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 align-items-center">
-                    <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="col-lg-10 align-items-center">
+                    <p class="para1"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>San Francisco, CA 94102, US
+                        1234, Some Str</p>
+                    <p class="para1 ml-5"><i class="fa fa-phone mr-2" aria-hidden="true"></i>+1 000 123 1234; +1 000 567
+                        5678</p>
                 </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-4">
+                <div class="col-lg-2 align-self-center">
                     <div>
                         <div class="heading_top">
-                            <a href="chat.php"><i class="fa fa-commenting" aria-hidden="true"></i>
-                                <span>message</span></a>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            
+                            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -24,7 +30,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row align-items-center mt-2 mb-2">
+        <div class="row align-items-center mt-1 mb-1">
             <div class="col-lg-2 col-3">
                 <div class="logoDv">
                     <a href="index.php">
@@ -32,70 +38,25 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-6 col-1">
-
-            </div>
-            <div class="col-lg-4 col-8">
-                <div class="right_menus">
-                    <div class="b_user_p">
-                        <div class="b_user_p2">
-                            <a href="signin.php"><img class="img-fluid" src="img/user_icon.png" alt=""></a>
-                            <div class="head_account">
-                                <span class="c_name">My Account</span>
-                                <a href="signin.php">
-                                    <p class="">Sign In</p>
-                                </a>
-                            </div>
-                        </div>
-                        <hr class="line">
-                        <div class="b_user_p2">
-                            <a href="productcart.php"><img class="img-fluid" src="img/cart_icon.png" alt=""></a>
-                            <div class="head_account">
-                                <a href="productcart.php"><span class="c_name">Your Cart</span></a>
-                                <p class="">$ 49.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="canvas_btn">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-7 col-1">
+                <div class="navbar_menus">
+                    <ul class="menus text-right" id="current_nav">
+                        <li class="menu-items "><a class="" href="index.php">Home</a></li>
+                        <li class="menu-items"><a href="about.php">About</a></li>
+                        <li class="menu-items"><a href="services.php">Services </a></li>
+                        <li class="menu-items"><a href="event.php">Events</a></li>
+                        <li class="menu-items"><a href="#">Classes</a></li>
+                        <li class="menu-items"><a href="#">Plans and Pricing</a></li>
+                        <li class="menu-items"><a href="contact.php"> Contact</a></li>
+                        <li class="menu-items mr-0"><a class="btn" href="#"> Register</a></li>
+                    </ul>
                 </div>
             </div>
+
         </div>
     </div>
-    <div class="orange-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="navbar_menus">
-                        <ul class="menus">
-                            <li class="menu-items"><a href="index.php">Home</a></li>
-                            <li class="menu-items"><a href="shop.php">Shops</a></li>
-                            <li class="menu-items"><a href="restaurant.php">Restaurants </a></li>
-                            <li class="menu-items"><a href="travels.php">Travels</a></li>
-                            <li class="menu-items"><a href="job.php">Jobs</a></li>
-                            <li class="menu-items"><a href="event-feed.php">Events</a></li>
-                            <li class="menu-items"><a href="dashboard/seller-products.php"> Sell</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-
-                </div>
-                <div class="col-lg-4">
-                    <div class="input-group align-items-center">
-                        <input type="text" class="form-control" placeholder="Search here" aria-label="search-here"
-                            aria-describedby="basic-addon1">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">
-                                <i class="fa fa-search"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </header>
 <!-- Header End Here -->
 

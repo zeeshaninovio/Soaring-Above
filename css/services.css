@@ -1,0 +1,68 @@
+section.service_sec .about_img_sec img {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+section.service_sec p.plaintxt {
+    font-family: "worksans-m";
+    font-size: 14px;
+}
+/* section kid enjoy css start here */
+section.enjoy_kids_sec {
+    background: url(../img/service2.png) no-repeat;
+    padding: 65px 0 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+}
+section.enjoy_kids_sec p.green_txt {
+    color: #fff;
+    margin-bottom: 0;
+}
+section.enjoy_kids_sec p.plainwhite {
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 1;
+}
+section.enjoy_kids_sec .ourmembership_content img {
+    width: 300px;
+    max-width: 300px;
+}
+section.enjoy_kids_sec .ourmembership_content p.welcome_para {
+    font-size: 25px;
+    color: #444444;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+section.enjoy_kids_sec .ourmembership_content p {
+    margin: 0;
+}
+section.enjoy_kids_sec .ourmembership_content small {
+    display: block;
+    text-align: left;
+    padding-left: 2rem;
+    color: #444444;
+    font-family: "opensans-sm";
+}
+section.enjoy_kids_sec .ourmembership_content {
+    background: url(../img/ourmember2.png) no-repeat;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+section.enjoy_kids_sec a.btn.view_btn {
+    background: #2281c3;
+    font-weight: 400;
+}
+section.enjoy_kids_sec .viewall {
+    width: 100px;
+    margin: auto;
+    margin-top: 2rem;
+}
+/* section kid enjoy css end here */

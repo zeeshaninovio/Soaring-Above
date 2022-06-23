@@ -1,0 +1,51 @@
+section.aboutus_sec ul {
+    list-style: none;
+    padding-left: 0;
+}
+section.aboutus_sec p.plaintxt {
+    font-family: "opensans-sm";
+    font-size: 14px;
+}
+section.aboutus_sec ul li {
+    font-family: "opensans-sm";
+    font-size: 14px;
+}
+section.aboutus_sec ul li img {
+    width: 28px;
+    margin-bottom: 5px;
+}
+section.aboutus_sec {
+    padding: 4rem 0;
+}
+section.aboutus_sec .about_img_sec img {
+    transform: scale(.9);
+}
+/* section shedule start here */
+section.shedule_sec {
+    background: url(../img/kidstudy.png) no-repeat;
+    padding: 140px 0 230px;
+    background-size: cover;
+    /* background-position: center; */
+}
+section.shedule_sec .shedule_content {
+    width: 80%;
+    margin-left: 5rem;
+}
+section.shedule_sec p{
+    font-family: "opensans-sm";
+    font-size: 14px;
+}
+/* section shedule end here */
+/* our team section start here */
+.our_team_sec .services_img {
+    margin: auto;
+    width: 87%;
+}
+section.home_services_sec.our_team_sec .services_img img {
+    width: 200px ;
+    margin: 0 auto;
+}
+.our_team_sec {
+    padding-bottom: 5rem;
+}
+/* our team section start here */

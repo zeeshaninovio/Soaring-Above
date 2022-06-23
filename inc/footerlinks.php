@@ -69,19 +69,19 @@ $('.nav-tabs').on('click', 'li', function() {
     $('.nav-tabs li.active').removeClass('active');
     $(this).addClass('active');
 });
-// Brands Slider About Page
-$('.brands_slider').slick({
-    dots: false,
+// testimonial Slider About Page
+$('.testimonail_slider').slick({
+    dots: true,
     arrows: true,
     infinite: false,
     speed: 300,
-    slidesToShow: 6,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [{
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
             }
@@ -104,188 +104,23 @@ $('.brands_slider').slick({
 });
 // Brands Slider About Page
 
-// Product-detail Slider
-$('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: false,
-    // centerMode: true,
-    focusOnSelect: true,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                infinite: false,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-});
-// Product-detail Slider
-
-// Brands Slider home Page
-$('.banner_slider_sec').slick({
-    dots: true,
-    arrows: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-});
-// Brands Slider home Page
-
-// week deal home Page
-$('#twdeal').slick({
-    dots: false,
-    arrows: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-});
-// week deal home Page
-
-// organic food home Page
-$('.organic_food_sec').slick({
-    dots: true,
-    arrows: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
-        }
-    ]
-});
-// organic food home Page
-// what are client  home Page
-$('.testimonial_sec_content').slick({
-    dots: false,
-    arrows: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                arrows: true,
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-});
-// what are client home Page
+// Add active class to the current button (highlight it)
+// var header = document.getElementById("current_nav");
+// var btns = header.getElementsByClassName("menu-items");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//   var current = document.getElementsByClassName("active");
+//   current[0].className = current[0].className.replace(" active", "");
+//   this.className += " active";
+//   });
+// }
+// Menu Active Js
+const CurrentLocation = location.href;
+const menuItem = document.querySelectorAll(".menus li a");
+const menuLength = menuItem.length;
+for (let i = 0; i < menuLength; i++) {
+  if (menuItem[i].href === CurrentLocation) {
+    menuItem[i].className = "active_tab";
+  }
+}
 </script>

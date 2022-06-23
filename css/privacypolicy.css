@@ -1,0 +1,15 @@
+.privacy_para p {
+    font-family: "worksans";
+    font-size: 14px;
+}
+.privacy_head {
+    padding-top: 4rem;
+}
+.privacy_head h2 {
+    font-weight: 100;
+    color: #444444;
+}
+section.privacypolicy_sec {
+    border-bottom: 1px solid #000;
+    padding-bottom: 4rem;
+}

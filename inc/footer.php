@@ -1,7 +1,7 @@
 <!-- Footer Sec Start Here -->
 <footer>
     <div class="container">
-        <div class="footer-sec-black">
+        <!-- <div class="footer-sec-black">
             <div class="black1">
                 <p>Newsletter</p>
                 <h3>Subscribe To Our Newsletter</h3>
@@ -18,72 +18,97 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <div class="row black_mid">
             <div class="col-lg-4 col-md-6">
                 <div class="footer_content">
                     <div class="ft-logoDv">
                         <figure><img src="img/logo.png" class="img-fluid"></figure>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis mi faucibus risus
-                        auctor scelerisque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis mi
-                        faucibus risus auctor scelerisque.
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua.
                     </p>
-
+                    <div class="foot_social ml-0">
+                        <figure>
+                            <a href="#"><img src="img/facebook_logo.png" class="img-fluid" alt=""></a>
+                        </figure>
+                    </div>
+                    <div class="foot_social">
+                        <figure>
+                            <a href="#"><img src="img/instagram_logo.png" class="img-fluid" alt=""></a>
+                        </figure>
+                    </div>
+                    <div class="foot_social">
+                        <figure>
+                            <a href="#"><img src="img/twitter.png" class="img-fluid" alt=""></a>
+                        </figure>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer_content">
                             <div class="head">
-                                <h5>Quick Links</h5>
+                                <h5>Company</h5>
                             </div>
-                            <ul class="footer_menus">
-                                <li><a href="contactus.php">Contact Us</a></li>
-                                <li><a href="advertisement.php">Advertisement</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
+                            <ul class="footer_menus mt-5">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">blog</a></li>
+                                <li><a href="#">Case</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="footer_content">
                             <div class="head">
-                                <h5>Address</h5>
+                                <h5>Services</h5>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit.
-                            </p>
-                            <!-- <ul class="footer_menus">
-                                <li><a href="#">PRIVACY POLICY</a></li>
-                                <li><a href="#">TERMS AND CONDITIONS</a></li>
-                                <li><a href="#">INTEGRATED MANAGEMENT POLICY</a></li>
-                                <li><a href="#">COMPLAINT POLICY</a></li>
-                                <li><a href="#">RECRUITMENT PRIVACY NOTE</a></li>
-                            </ul> -->
+                            <ul class="footer_menus mt-5">
+                                <li><a href="#">Career Counseling</a></li>
+                                <li><a href="#">Relationship Issues</a></li>
+                                <li><a href="#">Dating & Relationships</a></li>
+                                <li><a href="#">Women's Issues</a></li>
+                                <li><a href="#">Sleep or Insomnia</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-5 col-md-6">
                         <div class="footer_content">
                             <div class="head">
-                                <h5>Contact Us</h5>
+                                <h5>Newsletter</h5>
                             </div>
-                            <ul class="info">
+                            <P class="mt-5">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            </P>
+                            <form action="">
+                                <div class="form-group mt-4">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Write Your Email">
+                                </div>
+                                <button class="btn w-100 footer_btn">View All</button>
+                            </form>
+                            <!-- <ul class="info">
                                 <li><a href="#"><i class="fa fa-phone"></i> (800) 0123-456-789</a></li>
                                 <li><a href="#"><i class="fa fa-envelope"
                                             aria-hidden="true"></i>Loremipsum@gmail.com</a>
                                 </li>
-                            </ul>
-                            <ul class="social_links">
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.instagram.com/" target="_blank"><img src="img/icon_instagram.svg" class="img-fluid icon_instagram" alt=""></a></li>
-                            </ul>
+                            </ul> -->
+                            <!-- <ul class="social_links">
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"
+                                            aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img
+                                            src="img/icon_instagram.svg" class="img-fluid icon_instagram" alt=""></a>
+                                </li>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -95,8 +120,9 @@
 <div class="copyright">
     <div class="container">
         <div class="copyright_para">
-            <p>©Copyright Warmlanka.com 2022. All rights reserved.</p>
-            <p><a href="privacypolicy.php">Privicy policy</a> | <a href="termsncondition.php">Terms of conditions</a></p>
+            <p>Copyright © 2022 Soaring Above & Beyond Learning Development Center</p>
+            <p>  <a href="#">TERMS & CONDITION</a> | <a href="privacypolicy.php">PRIVACY POLICY</a>
+            </p>
         </div>
     </div>
 </div>
