@@ -18,14 +18,14 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div>
-                        <p class="green_txt">OUR SERVICES</p>
-                        <p class="welcome_para">Wish your a day full of <br>
+                        <p class="green_txt wow animate__animated animate__fadeInDown">OUR SERVICES</p>
+                        <p class="welcome_para wow animate__animated animate__fadeInDown">Wish your a day full of <br>
                             happiness and joy</p>
-                        <p class="plaintxt">
+                        <p class="plaintxt wow animate__animated animate__fadeInLeft">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam..
                         </p>
-                        <p class="plaintxt">
+                        <p class="plaintxt wow animate__animated animate__fadeInLeft">
                             Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Mauris ultrices eros in
                             cursus turpis massa tincidunt. Pellentesque sit amet porttitor eget dolor. Dictumst
                             vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Eu nisl nunc mi ipsum
@@ -38,8 +38,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="about_img_sec">
-                        <img src="img/services1.png" class="img-fluid" alt="">
+                    <div class="about_img_sec wow animate__animated animate__fadeInRight">
+                        <img src="img/services1.webp" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -49,15 +49,15 @@
     <!-- upcomming section start here -->
     <section class="enjoy_kids_sec">
         <div class="home_services text-center">
-            <p class="green_txt">Services</p>
-            <p class="plainwhite">Let Your kids Enjoy <br>
+            <p class="green_txt wow animate__animated animate__fadeInDown">Services</p>
+            <p class="plainwhite wow animate__animated animate__fadeInDown">Let Your kids Enjoy <br>
                 their day</p>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="ourmembership_content">
-                        <img src="img/kidenjoy1.png" class="img-fluid upcoming_img" alt="">
+                    <div class="ourmembership_content wow animate__animated animate__fadeInDown">
+                        <img src="img/kidenjoy1.webp" class="img-fluid upcoming_img" alt="">
                         <p class="welcome_para">Drop-In</p>
                         <p>
                             <small>Age Group: 5-8 Years</small>
@@ -66,8 +66,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="ourmembership_content">
-                        <img src="img/kidenjoy2.png" class="img-fluid upcoming_img" alt="">
+                    <div class="ourmembership_content wow animate__animated animate__fadeInUp">
+                        <img src="img/kidenjoy2.webp" class="img-fluid upcoming_img" alt="">
                         <p class="welcome_para">Tutoring</p>
                         <p>
                             <small>Age Group: 5-8 Years</small>
@@ -76,8 +76,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="ourmembership_content">
-                        <img src="img/kidenjoy3.png" class="img-fluid upcoming_img" alt="">
+                    <div class="ourmembership_content wow animate__animated animate__fadeInDown">
+                        <img src="img/kidenjoy3.webp" class="img-fluid upcoming_img" alt="">
                         <p class="welcome_para">Track-Out</p>
                         <p>
                             <small>Age Group: 5-8 Years</small>
@@ -86,8 +86,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="ourmembership_content">
-                        <img src="img/kidenjoy4.png" class="img-fluid upcoming_img" alt="">
+                    <div class="ourmembership_content wow animate__animated animate__fadeInUp">
+                        <img src="img/kidenjoy4.webp" class="img-fluid upcoming_img" alt="">
                         <p class="welcome_para">Transportation</p>
                         <p>
                             <small>Age Group: 5-8 Years</small>
@@ -110,7 +110,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="blue_content">
+                    <div class="blue_content wow animate__animated animate__fadeInLeft">
                         <p class="plainwhite">
                             One Solution for Your every children needs
                         </p>
@@ -120,7 +120,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 align-self-center">
+                <div class="col-md-4 align-self-center wow animate__animated animate__fadeInRight">
                     <div>
                         <a href="#" class="btn"> SCHEDULE A TOUR</a>
                         <a href="#" class="custombtn ml-2">REGISTER NOW</a>

@@ -18,16 +18,16 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div>
-                        <p class="green_txt">About Us</p>
-                        <p class="welcome_para">We Help your Kids to Learn <br>
+                        <p class="green_txt wow animate__animated animate__fadeInDown">About Us</p>
+                        <p class="welcome_para wow animate__animated animate__fadeInLeft">We Help your Kids to Learn <br>
                             Explore Grow</p>
-                        <p class="plaintxt">
+                        <p class="plaintxt wow animate__animated animate__fadeInRight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
-                        <ul>
-                            <li><img src="img/listimg.png" class="img-fluid mr-2" alt="">Lorem ipsum dolor sit amet</li>
+                        <ul class="wow animate__animated animate__fadeInLeft">
+                            <li><img src="img/listimg.png" class="img-fluid mr-2 " alt="">Lorem ipsum dolor sit amet</li>
                             <li><img src="img/listimg.png" class="img-fluid mr-2" alt="">Lorem ipsum dolor sit amet</li>
                             <li><img src="img/listimg.png" class="img-fluid mr-2" alt="">Lorem ipsum dolor sit amet</li>
                             <li><img src="img/listimg.png" class="img-fluid mr-2" alt="">Lorem ipsum dolor sit amet</li>
@@ -39,8 +39,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="about_img_sec">
-                        <img src="img/about1.png" class="img-fluid" alt="">
+                    <div class="about_img_sec wow animate__animated animate__fadeInRight">
+                        <img src="img/about1.webp" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -55,14 +55,14 @@
                 <div class="col-md-6"></div>
                 <div class="col-md-6 align-self-center">
                     <div class="shedule_content">
-                        <p class="green_txt">About Us</p>
-                        <p class="welcome_para">We Help your Kids to Learn <br>
+                        <p class="green_txt wow animate__animated animate__fadeInDown">About Us</p>
+                        <p class="welcome_para wow animate__animated animate__fadeInLeft">We Help your Kids to Learn <br>
                             Explore Grow</p>
-                        <p class="plaintxt">
+                        <p class="plaintxt wow animate__animated animate__fadeInRight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam.
                         </p>
-                        <p>
+                        <p class="plaintxt wow animate__animated animate__fadeInRight">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et
                         </p>
@@ -78,34 +78,34 @@
     <!-- our team section start here -->
     <section class="home_services_sec our_team_sec">
         <div class="home_services text-center">
-            <p class="green_txt">OUR TEAM</p>
-            <p class="welcome_para">Our Team Of Professional is here <br>
+            <p class="green_txt wow animate__animated animate__fadeInDown">OUR TEAM</p>
+            <p class="welcome_para wow animate__animated animate__fadeInDown">Our Team Of Professional is here <br>
                 to Help your Kids to Grow</p>
         </div>
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col">
-                    <div class="services_img">
-                        <img src="img/ourteam1.png" class="img-fluid" alt="">
+                    <div class="services_img wow animate__animated animate__fadeInUp">
+                        <img src="img/ourteam1.webp" class="img-fluid" alt="">
                         <p class="services_head">Kiersten Blake</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="services_img">
-                        <img src="img/ourteam2.png" class="img-fluid" alt="">
+                    <div class="services_img wow animate__animated animate__fadeInDown">
+                        <img src="img/ourteam2.webp" class="img-fluid" alt="">
                         <p class="services_head">Jacqueline Moore</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="services_img">
-                        <img src="img/ourteam3.png" class="img-fluid" alt="">
+                    <div class="services_img wow animate__animated animate__fadeInUp">
+                        <img src="img/ourteam3.webp" class="img-fluid" alt="">
                         <p class="services_head">Jade Blake </p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="services_img">
-                        <img src="img/ourteam4.png" class="img-fluid" alt="">
+                    <div class="services_img wow animate__animated animate__fadeInDown">
+                        <img src="img/ourteam4.webp" class="img-fluid" alt="">
                         <p class="services_head">Hailie Stone</p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="blue_content">
+                <div class="blue_content wow animate__animated animate__fadeInLeft">
                     <p class="plainwhite">
                         One Solution for Your every children needs
                     </p>
@@ -135,7 +135,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 align-self-center">
+            <div class="col-md-4 align-self-center wow animate__animated animate__fadeInRight">
                 <div>
                     <a href="#" class="btn"> SCHEDULE A TOUR</a>
                     <a href="#" class="custombtn ml-2">REGISTER NOW</a>

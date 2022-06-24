@@ -13,18 +13,18 @@
     </section>
     <section class="event_sec">
         <div class="home_services text-center">
-            <p class="green_txt">EVENTS</p>
-            <p class="welcome_para">Have a look at Our <br>
+            <p class="green_txt wow animate__animated animate__fadeInDown">EVENTS</p>
+            <p class="welcome_para wow animate__animated animate__fadeInDown">Have a look at Our <br>
                 Upcoming events</p>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div>
-                        <div class="event_wrapper">
+                        <div class="event_wrapper wow animate__animated animate__fadeInLeft">
                             <div class="">
                                 <div class="event_img_wrapper">
-                                    <img src="img/event1.png" class="img-fluid" alt="">
+                                    <img src="img/event1.webp" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="">
@@ -53,10 +53,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="event_wrapper">
+                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
                         <div class="">
                             <div class="event_img_wrapper">
-                                <img src="img/event2.png" class="img-fluid" alt="">
+                                <img src="img/event2.webp" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="">
@@ -81,10 +81,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper">
+                    <div class="event_wrapper wow animate__animated animate__fadeInLeft">
                         <div class="">
                             <div class="event_img_wrapper">
-                                <img src="img/event3.png" class="img-fluid" alt="">
+                                <img src="img/event3.webp" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="">
@@ -109,10 +109,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper">
+                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
                         <div class="">
                             <div class="event_img_wrapper">
-                                <img src="img/event4.png" class="img-fluid" alt="">
+                                <img src="img/event4.webp" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="">
@@ -137,10 +137,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper">
+                    <div class="event_wrapper wow animate__animated animate__fadeInLeft">
                         <div class="">
                             <div class="event_img_wrapper">
-                                <img src="img/event5.png" class="img-fluid" alt="">
+                                <img src="img/event5.webp" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="">
@@ -165,10 +165,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper">
+                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
                         <div class="">
                             <div class="event_img_wrapper">
-                                <img src="img/event6.png" class="img-fluid" alt="">
+                                <img src="img/event6.webp" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="">
@@ -203,7 +203,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="blue_content">
+                    <div class="blue_content wow animate__animated animate__fadeInLeft">
                         <p class="plainwhite">
                             One Solution for Your every children needs
                         </p>
@@ -213,7 +213,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 align-self-center">
+                <div class="col-md-4 align-self-center wow animate__animated animate__fadeInRight">
                     <div>
                         <a href="#" class="btn"> SCHEDULE A TOUR</a>
                         <a href="#" class="custombtn ml-2">REGISTER NOW</a>

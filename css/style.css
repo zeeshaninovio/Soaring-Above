@@ -152,7 +152,7 @@ input::placeholder {
 	font-weight: unset;
 }
 .head-page {
-    background: url(../img/universal_banner.png);
+    background: url(../img/universal_banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -585,7 +585,7 @@ p.para1 {
 }
 
 section.banner_sec {
-	background: url(../img/home_banner.png) no-repeat;
+	background: url(../img/home_banner.webp) no-repeat;
 	background-size: cover;
 }
 
@@ -668,7 +668,12 @@ section.home_services_sec p.services_para {
 	font-size: 14px;
 	text-align: center;
 }
-
+section.home_services_sec {
+    padding: 5rem 0px;
+}
+section.home_services_sec p.welcome_para {
+    margin-bottom: 4rem;
+}
 section.home_services_sec p.services_head {
 	text-align: center;
 	font-size: 22px;
@@ -707,7 +712,7 @@ section.ourmember_sec p.plainwhite {
 }
 
 section.ourmember_sec {
-	background: url(../img/ourmemberbanner.png) no-repeat;
+	background: url(../img/ourmemberbanner.webp) no-repeat;
 	padding: 140px 0 230px;
 	background-size: cover;
 }
@@ -751,7 +756,7 @@ section.ourmember_sec .viewall {
 /* banner section end here */
 /* testimonial css start here */
 .testimonial_content {
-	background: url(../img/testimonial1.png) no-repeat;
+	background: url(../img/testimonial1.webp) no-repeat;
 	background-size: 100% 100%;
 	padding: 2rem;
 	transform: scale(0.95);
@@ -819,7 +824,7 @@ section.testimonial_sec {
 }
 
 .ourmember_sec.upcomming_sec {
-	background: url(../img/upcomingbanner.png) no-repeat;
+	background: url(../img/upcomingbanner.webp) no-repeat;
 	padding: 140px 0 230px;
 	background-size: cover;
 	background-position: center;

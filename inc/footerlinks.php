@@ -1,4 +1,5 @@
 <!-- Bootstrap CDN -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bs-stepper@1.3.0/dist/js/bs-stepper.min.js"></script>
 <script src="js/popper.min.js" type="text/javascript"></script>
@@ -17,8 +18,9 @@
 <script src="slick/slick.min.js"></script>
 <!-- Slick Slider CDN -->
 
-<!-- Wow Js CDN -->
 <script src="js/wow.min.js"></script>
+<!-- Wow Js CDN -->
+
 <script>
 new WOW().init();
 </script>

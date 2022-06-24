@@ -27,7 +27,8 @@
 <!-- Slick Slider CDN -->
 
 <!-- Anime.js CDN -->
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!-- <link rel="stylesheet" href="css/animate.css"> -->
 <!-- Anime.js CDN -->
 
 <!-- Css Stylesheet -->

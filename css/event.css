@@ -44,19 +44,21 @@
 }
 .event_img_wrapper {
     background: url(../img/imgback2.png);
-    height: 258px;
-    max-height: 259px;
+    height: 262px;
+    max-height: 262px;
     overflow: hidden;
-    width: 100%;
+    width: 240px;
     background-size: cover;
 }
 .event_wrapper {
     display: flex;
-   
+   /* background: url(../img/greyback2.png); */
+   background-size: cover;
 }
 .event_img_wrapper img {
     height: 270px;
-    width: 350px;
+    width: 250px;
+    max-width: 250px;
 }
 section.event_sec {
     padding: 5rem;

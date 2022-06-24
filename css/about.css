@@ -22,7 +22,7 @@ section.aboutus_sec .about_img_sec img {
 }
 /* section shedule start here */
 section.shedule_sec {
-    background: url(../img/kidstudy.png) no-repeat;
+    background: url(../img/kidstudy.webp) no-repeat;
     padding: 140px 0 230px;
     background-size: cover;
     /* background-position: center; */
@@ -31,7 +31,7 @@ section.shedule_sec .shedule_content {
     width: 80%;
     margin-left: 5rem;
 }
-section.shedule_sec p{
+section.shedule_sec p.plaintxt{
     font-family: "opensans-sm";
     font-size: 14px;
 }
