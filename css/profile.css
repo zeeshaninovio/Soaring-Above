@@ -1,0 +1,560 @@
+/* profile tab css starts here */
+.profile {
+  padding: 100px 0px;
+}
+.profile-sidebar-wrapper {
+  background: #fff;
+  border: 2px solid #f1f1f1;
+}
+.profile-sidebar-wrapper .profile-headin-wrapper {
+  background: #1aac7a;
+  padding: 14px 20px;
+}
+.profile-sidebar-wrapper .profile-headin-wrapper h3 {
+  font-family: "GT Walsheim Pro black";
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+
+ .img_box {
+  margin-right: 15px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50%;
+  border: 3px solid black;
+  /* object-fit: cover; */
+  top: -96px;
+  left: 59px;
+}
+ .img_box img {
+  border-radius: 50%;
+}
+ .img_box .change-img-btn {
+  position: absolute;
+  bottom: -1px;
+  background: #f2f2f2;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 8px;
+}
+ .img_box .change-img-btn a {
+  font-size: 9px;
+  color: #000000;
+  font-family: "OpenSans-SemiBold";
+  text-decoration: revert;
+}
+/* .profile-sidebar-wrapper .profile-img-wrapper img {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: -60px;
+  left: 80px;
+} */
+.profile-sidebar-wrapper .profile-img-wrapper {
+  margin-top: 34px;
+  border-bottom: 1px solid #C0C0C0;
+} 
+
+.form-group1 label {
+  margin-left: -103px;
+  color: #282828;
+  font-size: 16px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+.form-group1 h6 {
+  color: #282828;
+  font-size: 16px;
+  font-family: "opensans";
+  font-weight: 400;
+  margin-left: 60px;
+
+}
+.form-group1 h6 span {
+  padding-left: 10px;
+
+}
+.form-group1 h6 span a {
+      color: #282828;
+    font-size: 16px;
+    font-family: "opensans";
+    font-weight: 400;
+}
+.profile-content-wrapper h6 {
+  color: #2A263D;
+  font-size: 35px;
+  font-family: "mmr";
+  font-weight: 400;
+  /* margin-top: 36px; */
+}
+.profile-content-wrapper {
+  margin-bottom: 30px;
+  margin-top: -69px;
+}
+.profile-sidebar-wrapper .nav-pills .nav-link.active {
+  background: transparent;
+  color: #6A9731;
+  font-family:"OpenSans-SemiBold";
+  font-size: 20px;
+}
+.profile-sidebar-wrapper .nav-pills .nav-link {
+  font-family: "OpenSans-SemiBold";
+  font-size: 20px;
+  color: #5e5e5e;
+  line-height: 2;
+  border-bottom: none;
+  border-radius: 0px;
+}
+.profile-sidebar-wrapper .nav-pills .nav-link:last-child {
+  border-bottom: none;
+  font-family: "OpenSans-SemiBold";
+  font-size: 18px;
+  white-space: nowrap;
+}
+.profile-sidebar-wrapper .nav {
+  padding: 0px 30px;
+  padding-bottom: 6px;
+}
+div#v-pills-tab {
+  margin: 20px 0px;
+}
+.card {
+  border: none;
+}
+div#headingOne {
+  background: none;
+  border: none;
+  padding: 0;
+}
+button.btn1.btn-link.collapsed {
+  padding: 0 !important;
+  color: #5e5e5e !important;
+  font-family: "OpenSans-SemiBold" !important;
+  font-size: 20px !important ;
+  border: none !important ;
+}
+.arrow{
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 163px;
+  background-position-y: 17px;
+}
+button.btn1.btn-link.collapsed:focus{
+  border: none !important;
+}
+button:focus {
+  outline: none !important  ;
+}
+button.btn1.btn-link {
+  color: #6A9731;
+  border: none;
+  font-family: "OpenSans-SemiBold" !important;
+  font-size: 20px !important ;
+  text-decoration: none;
+  padding: 0;
+
+}
+.card-body h4{
+  font-family: "OpenSans" !important;
+  font-size: 16px !important;
+  margin-left: 10px;
+  color: #000000;
+  font-weight: 400;
+}
+a.nav-link {
+  padding: 0;
+  margin: 0;
+}
+
+.profile-sidebar-wrapper li.nav-item:last-child {
+  border-bottom: none;
+}
+.profile-info-box-wrapper .dp-box-wrapper {
+  display: flex;
+  align-items: center;
+}
+.profile-box-img-wrapper img {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  object-position: top;
+}
+.profile-box-content-wrapper label {
+  font-family: "OpenSans" !important;
+    color: #282828;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.profile-box-content-wrapper h6 {
+    font-size: 20px;
+    color: #282828;
+    font-weight: 400;
+    font-family: "OpenSans";
+}
+.profile-info-box-wrapper button.edit-profile-btn {
+  color: #8BC440;
+  text-decoration: underline;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.change-password-btn {
+  color: #1aac7a;
+  text-decoration: underline;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+}
+
+.box-fields-wrapper input {
+  background: transparent !important;
+  border: 0px;
+  font-family: "GT Walsheim Pro black";
+  padding: 0px;
+  font-size: 20px;
+  color: #282828;
+}
+.box-fields-wrapper label.lbeltxt {font-family: "GT Walsheim Pro regular";
+  color: #282828;font-size: 14px;}
+
+  .box-fields-wrapper input.inputtxt {background: transparent !important;
+  border: 0px;
+  font-family: "GT Walsheim Pro black";
+  padding: 0px;
+  font-size: 10px;
+  color: #989898;margin: 0;}
+.box-fields-wrapper label {
+  color: #282828;
+  font-size: 16px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+
+.box-fields-wrapper .form-group {
+  margin: 34px 0px;
+}
+
+.profile-info-box-wrapper {
+  padding: 26px;
+  background: #fff;
+  box-shadow: 0px 2px 3px 1px #cacacaa8;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+}
+.change-address-btn {
+  color: #1aac7a;
+  text-decoration: underline;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+}
+.box-fields-wrapper.address-wrapper textarea {
+  background: transparent;
+  border: 0px;
+  text-align: left;
+  padding: 0px;
+  margin-top: 20px;
+}
+.profile-tabe-wrapper .address-wrapper {
+  border-top: 1px solid #b5c9ba;
+}
+.profile-content-heading h4 {
+  color: #2A263D;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.profile-tabe-wrapper .profile-content-heading {
+  margin-bottom: 30px;
+  margin-left: 13px;
+
+}
+.profile-box-content-wrapper {
+  margin-left: 13px;
+}
+.edit-fields input.form-control {
+  background: #ffffff !important;
+  padding: 14px;
+  border: 1px solid #e1e1e1;
+  color: #274d5e !important;
+  font-family: "GT Walsheim Pro regular";
+  font-size: 14px;
+}
+.box-fields-wrapper input.form-control {
+  padding: 0;
+  color: #282828;
+  font-size: 16px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+.address h6 {
+  color: #282828;
+  font-size: 16px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+.address p {
+  color: #282828;
+  font-size: 17px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+
+.adressdata {
+  display: flex;
+  align-items: center;
+}
+.adressdata h4 {
+  padding-left: 11px;
+  color: #282828;
+  font-size: 18px;
+  font-family: "opensans";
+  font-weight: 400;
+}
+.adressdata img {
+  height: 28px;
+  width: 28px;
+}
+.price_booked {
+  position: relative;
+  height: 100%;
+  text-align: 'right';
+}
+.booked {
+  margin-top: 63px;
+  text-align: center;
+}
+.price {
+  text-align: center;
+  margin-top: 20px;
+}
+.price h5 {
+  font-family: "Montserrat";
+  line-height: 0;
+  color: #797685;
+  font-weight: 700;
+  margin-left: -40px;
+}
+.md h3 {
+  color: #2A263D;
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.price h4 {
+  color: #2A263D;
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.booked1 {
+  margin-top: 63px;
+  text-align: center;
+}
+.booked1 a.btn {
+  background: #F95959;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 30px;
+  font-weight: 500;
+  transition: 0.6s;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid #F95959;
+}
+.booked1 a.btn:hover {
+  background: #fff;
+  color: #F95959!important;
+  border: 1px solid #F95959;
+}
+.borderbottom{
+  border-bottom: 1px solid #C8C8C8 !important; 
+  padding-bottom: 30px;
+}
+.booked2 {
+  margin-top: 63px;
+  text-align: center;
+}
+.booked2 a.btn {
+  background: #2281C3;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 30px;
+  font-weight: 500;
+  transition: 0.6s;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid#2281C3;
+}
+.booked2 a.btn:hover {
+  background: #fff;
+  color: #2281C3!important;
+  border: 1px solid #2281C3;
+}
+.bordersquare {
+  border: 1px solid #E8E8E8;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 40px;
+}
+
+.number span {
+  border: 2px solid #2281C3;
+  padding: 10px 31px;
+  border-radius: 8px;
+  font-size: 57px;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: "mmr";
+  color: #2281C3;
+}
+.number {
+  text-align: end;
+  margin-right: 30px;
+  position: absolute;
+  top: -25px;
+  right: 30px;
+}
+.single p {
+  line-height: 0.8;
+}
+.single {
+  margin-left: 30px;
+  margin-top: 11px;
+}
+.bordersquare h4 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "opensans";
+  font-size: 32px;
+  color: #575757;
+}
+.single p {
+  line-height: 0.8;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "worksans";
+  color: #575757;
+}
+
+.ourmembership_content p.text-center.number_text {
+  border: 2px solid #2281C3;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 57px;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: "mmr";
+  color: #2281C3;
+  height: 50%;
+  width: 40%;
+  margin-left: 70px;
+}
+
+
+.ourmembership_content p.full_day {
+	font-family: "worksans";
+	font-size: 14px;
+}
+
+.ourmembership_content {
+	background: url(../img/ourmember2.png) no-repeat;
+	text-align: center;
+	padding: 1.5rem 0px;
+  background-size: 100% 100%;
+
+}
+
+.ourmembership_content a.btn {
+	background: #2281c3;
+}
+
+.event1 {
+  padding: 26px;
+  background: #eeeeee9c;
+  box-shadow: 0px 2px 3px 1px #cacacaa8;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+  
+}
+.event {
+  padding: 26px;
+  background: #fff;
+  box-shadow: 0px 2px 3px 1px #cacacaa8;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+}
+
+.event12 {
+    padding: 26px;
+    background: #fff;
+    box-shadow: 0px 2px 3px 1px #cacacaa8;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    display: none;
+}
+.event13 {
+  padding: 26px;
+  background: #fff;
+  box-shadow: 0px 2px 3px 1px #cacacaa8;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+  display: none;
+}
+.form-group1 .form-control {
+	border-radius: 5px !important;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	background-color: #F8F8F8;
+	border: unset;
+  padding: 15px 27px;
+  margin: 10px 0px;
+
+}
+.btnleft {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.btnleft1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.btnleft1 .booked {
+  margin-right: 9px;
+}
+.btnleft .booked {
+  margin-right: 9px;
+}
+.profile-info-box-wrapper button.edit-profile-btn1 {
+  color: #8BC440;
+  text-decoration: underline;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}

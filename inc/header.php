@@ -46,17 +46,17 @@
                         <li class="menu-items"><a href="about.php">About</a></li>
                         <li class="menu-items"><a href="services.php">Services </a></li>
                         <li class="menu-items"><a href="event.php">Events</a></li>
-                        <li class="menu-items"><a href="#">Classes</a></li>
-                        <li class="menu-items"><a href="#">Plans and Pricing</a></li>
+                        <li class="menu-items"><a href="classes.php">Classes</a></li>
+                        <li class="menu-items"><a href="plans-and-pricing.php">Plans and Pricing</a></li>
                         <li class="menu-items"><a href="contact.php"> Contact</a></li>
-                        <li class="menu-items mr-0"><a class="btn" href="#"> Register</a></li>
+                        <li class="menu-items mr-0"><a class="btn" href="sign-in.php"> Register</a></li>
                     </ul>
                 </div>
             </div>
 
         </div>
     </div>
-    
+
 </header>
 <!-- Header End Here -->
 

@@ -1,0 +1,33 @@
+.ourmembership_content {
+    background: url(../img/ourmember2.png) no-repeat;
+    text-align: center;
+    padding: 1.5rem 0px;
+    background-size: 100% 100%;
+}
+.ourmembership_content p.text-center.number_text {
+    border: 2px solid #2281C3;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 57px;
+    line-height: 70px;
+    font-weight: 700;
+    font-family: "mmr";
+    color: #2281C3;
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+
+}
+.ourmembership_content p.full_day {
+    font-family: "worksans";
+    font-size: 14px;
+}
+.ourmembership_content a.btn {
+    background: #2281c3;
+    
+}
+section.ourmember_sec1 {
+    background: #ebebeb54;
+    margin: -10px 0px;
+    padding: 60px;
+}

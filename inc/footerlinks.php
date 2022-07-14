@@ -4,6 +4,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bs-stepper@1.3.0/dist/js/bs-stepper.min.js"></script>
 <script src="js/popper.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
 <!-- Bootstrap CDN -->
 
 <!-- Main Js -->
@@ -121,8 +122,38 @@ const CurrentLocation = location.href;
 const menuItem = document.querySelectorAll(".menus li a");
 const menuLength = menuItem.length;
 for (let i = 0; i < menuLength; i++) {
-  if (menuItem[i].href === CurrentLocation) {
-    menuItem[i].className = "active_tab";
-  }
+    if (menuItem[i].href === CurrentLocation) {
+        menuItem[i].className = "active_tab";
+    }
 }
+// $("button.edit-profile-btn").click(function() {
+//     $(".profile-info-box-wrapper").css("none");
+
+// });
+$("button.edit-profile-btn").click(function() {
+    $(".profile-info-box-wrapper").css({
+        "display": "none"
+    });
+    $(".event12").css({
+        "display": "block"
+    });
+});
+$(".booked.float-left a").click(function() {
+    $(".profile-info-box-wrapper").css({
+        "display": "block"
+    });
+});
+$(".form-group1").click(function() {
+    $(".profile-info-box-wrapper").css({
+        "display": "none"
+    });
+    $(".event13").css({
+        "display": "block"
+    });
+});
+$(".booked.float-left a").click(function() {
+    $(".profile-info-box-wrapper").css({
+        "display": "block"
+    });
+});
 </script>

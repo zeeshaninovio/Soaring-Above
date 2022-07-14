@@ -1,6 +1,8 @@
 /* Font Family */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@200&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 /* Font Family */
 
 @font-face {
@@ -35,7 +37,14 @@
 	font-family: "worksans-m";
 	src: url(../fonts/WorkSans-Medium.ttf);
 }
-
+@font-face {
+	font-family: "OpenSans-SemiBold";
+	src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+	font-family: "OpenSans-regular";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
 /* Universal Css Start Here */
 :root {
 	--first-color: #81be41;
@@ -970,6 +979,8 @@ footer {
 	/* padding: 150px 0px 0px; */
 	background-color: #fff;
 	font-family: "opensans-m";
+	border-top: 2px solid #707070;
+
 }
 
 footer .footer_content {

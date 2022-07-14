@@ -1,0 +1,46 @@
+
+.ourmembership_content1 {
+    background: url(../img/Path12.png) no-repeat;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+}
+.viewall1 a.btn1 {
+    background: #2281C3;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 60px;
+    font-weight: 500;
+    transition: 0.6s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid #2281C3;
+    margin-left: -13px;
+    margin-top: 19px;
+}
+.heading span {
+    margin-left: 79px;
+}
+section.ourmember_sec1 {
+    margin-top: 140px;
+    margin-bottom: 90px;
+}
+
+
