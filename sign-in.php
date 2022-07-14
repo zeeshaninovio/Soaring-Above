@@ -64,7 +64,7 @@
             <div class="col-lg-6 mx-auto">
                 <div class="sign-para">
                     <p>Don't Have An Account</p>
-                    <a type="button" href="">Sign Up</a>
+                    <a type="button" href="sign-up.php">Sign Up</a>
                 </div>
             </div>
         </div>
