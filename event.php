@@ -39,7 +39,8 @@
                                                     Main
                                                     Street, 2nd Block,
                                                     3rd Floor, New York</small></li>
-                                            <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                            <li><img src="img/icon_time.svg" class="img-fluid mr-3"
+                                                    alt=""><small>Friday,
                                                     08am -
                                                     05pm</small></li>
                                         </ul>
@@ -222,8 +223,8 @@
                 </div>
                 <div class="col-md-4 align-self-center wow animate__animated animate__fadeInRight">
                     <div>
-                        <a href="#" class="btn"> SCHEDULE A TOUR</a>
-                        <a href="#" class="custombtn ml-2">REGISTER NOW</a>
+                        <a href="schedule-tour.php" class="btn"> SCHEDULE A TOUR</a>
+                        <a href="profile.php" class="custombtn ml-2">REGISTER NOW</a>
                     </div>
                 </div>
             </div>
