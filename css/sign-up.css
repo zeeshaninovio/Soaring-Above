@@ -1,0 +1,243 @@
+section.checkout_form {
+    padding: 68px 0px 53px;
+}
+
+.sub_heading.text-center h1 {
+    color: #444444;
+    font-size: 52px;
+}
+
+/* input css */
+.billing_inputs .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing_inputs .form-row .single_input {
+    width: 32%;
+    margin-top: 25px;
+}
+
+.billing_inputs .form-row .single_input input,
+.billing_inputs .form-row .single_input select {
+    background: #F8F8F8;
+    height: 47px;
+    padding-left: 15px;
+    width: 100%;
+    border: 1px solid #E9E9E9;
+    appearance: none;
+    border-radius: 4px;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 15px;
+    outline: #2281C3;
+    font-family: "opensans-sm";
+}
+
+.billing_inputs .form-row .single_input select {
+    background-image: url(../img/select-angle.png);
+    background-position: center right 11px;
+    background-repeat: no-repeat;
+    background-size: 11px;
+}
+
+/* Checkout Box CSS */
+
+
+section.checkout_pauement .paymetn_box .payment_rows {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: space-between;
+}
+
+section.checkout_pauement .paymetn_box {
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    padding: 29px 28px 12px;
+}
+
+section.checkout_pauement .paymetn_box .payment_rows p {
+    margin-bottom: 0px;
+    color: #000000;
+    font-family: "opensans-sm";
+    font-size: 16px;
+}
+
+section.checkout_pauement .paymetn_box .payment_rows h3 {
+    margin-bottom: 0px;
+    color: #444444;
+    font-size: 33px;
+}
+
+.other_payments {
+    padding-bottom: 19px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.pay_payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Custom Checkbox */
+.check_box_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check_box_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.agree_terms_condition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    transform: translateY(6px);
+    width: 21px;
+    border: 2px solid #BFBFBF;
+    background-color: #eee;
+}
+
+.check_plus_text label.check_box_container span {
+    color: #000000;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+}
+
+.check_box_container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check_box_container input:checked~.checkmark:after {
+    display: block;
+}
+
+.check_box_container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #2281C3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.sub_heading.text-center {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+    .billing_inputs .form-row .single_input.w-50 {
+        width: 49% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn.footer_btn {
+        padding: 10px 26px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn.footer_btn {
+        padding: 10px 26px !important;
+        font-size: 12px !important;
+    }
+
+    .pay_btn {
+        text-align: right;
+    }
+
+    .pay_payment {
+        display: block;
+        margin: 35px 0px !important;
+    }
+
+    .check_plus_text label.check_box_container span {
+        font-size: 13px !important;
+    }
+}
+
+@media screen {
+    .form-row {
+        display: block !important;
+    }
+
+    .single_input {
+        width: 100% !important;
+    }
+}
+
+.form_submit {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.form_submit button.btn {
+    background: #8bc440;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 60px;
+    font-weight: 500;
+    font-family: 'mmr';
+    transition: 0.6s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid #8bc440;
+    cursor: pointer;
+}
+
+.form_submit button.btn:hover {
+    background: #fff;
+    color: #619700 !important;
+    border: 1px solid #619700;
+}
+
+.form_submit p {
+    margin-top: 15px;
+    color: #6E6E6E;
+    font-size: 13px;
+    font-family: 'opensans-m';
+}
+
+.form_submit p a {
+    font-family: 'opensans-bold';
+    color: #8BC440;
+    text-decoration-color: #8BC440 !important;
+    text-decoration: underline;
+}

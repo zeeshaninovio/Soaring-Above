@@ -1,0 +1,180 @@
+
+section.checkout_form {
+    padding: 68px 0px 53px;
+}
+.sub_heading.text-center h1 {
+    color: #444444;
+    font-size: 52px;
+}
+/* input css */
+.billing_inputs .form-row{
+    display: flex;
+    justify-content: space-between;
+}
+.billing_inputs .form-row .single_input{
+    width: 32%;
+    margin-top: 25px;
+}
+.billing_inputs .form-row .single_input.double{
+    width: 66% !important;
+}
+.billing_inputs .form-row .single_input input {
+    background: #F8F8F8;
+    height: 47px;
+    padding-left: 15px;
+    width: 100%;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    color: #434343;
+    font-size: 15px;
+	font-family: "opensans-sm";
+}
+
+/* Checkout Box CSS */
+
+
+section.checkout_pauement .paymetn_box .payment_rows {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: space-between;
+}
+section.checkout_pauement .paymetn_box {
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    padding: 29px 28px 12px;
+}
+section.checkout_pauement .paymetn_box .payment_rows  p {
+    margin-bottom: 0px;
+    color: #000000;
+	font-family: "opensans-sm";
+    font-size: 16px;
+}
+section.checkout_pauement .paymetn_box .payment_rows  h3 {
+    margin-bottom: 0px;
+    color: #444444;
+    font-size: 33px;
+}
+
+.other_payments {
+    padding-bottom: 19px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.pay_payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Custom Checkbox */
+.check_box_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check_box_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.agree_terms_condition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    transform: translateY(6px);
+    width: 21px;
+    border: 2px solid #BFBFBF;
+    background-color: #eee;
+}
+.check_plus_text label.check_box_container span {
+    color: #000000;
+	font-family: "Montserrat-Regular";
+    font-size: 16px;
+}
+.check_box_container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check_box_container input:checked~.checkmark:after {
+    display: block;
+}
+
+.check_box_container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #2281C3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.btn.footer_btn {
+    background: #2281C3;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 81px;
+    font-weight: 600;
+    transition: 0.6s;
+    font-family: "mmr";
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 0;
+	font-family: "Montserrat-Regular";
+}
+
+@media (max-width: 991px){
+    .btn.footer_btn{
+        padding: 10px 26px !important;
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 768px){
+    .btn.footer_btn{
+        padding: 10px 26px !important;
+        font-size: 12px !important;
+    }
+    .pay_btn{
+        text-align: right;
+    }
+    .pay_payment{
+        display: block;
+        margin:  35px  0px !important;
+    }
+    .check_plus_text label.check_box_container span{
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 576px){
+    .form-row{
+        display: block !important;
+    }
+    .form-row .single_input{
+        width: 100% !important;
+    }
+}

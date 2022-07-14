@@ -1,5 +1,5 @@
 <!-- App Include Here -->
-<?php include 'inc/app.php';?>
+<?php include 'inc/app.php'; ?>
 <!-- App Include Here -->
 <!-- Css Stylesheet -->
 <link rel="stylesheet" href="css/event.css">
@@ -20,11 +20,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div>
-                        <div class="event_wrapper wow animate__animated animate__fadeInLeft">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div>
+                            <div class="event_wrapper wow animate__animated animate__fadeInLeft">
+                                <div class="">
+                                    <div class="event_img_wrapper">
+                                        <img src="img/event1.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="event_content">
+                                        <p class="event_head">Mother’s Day</p>
+                                        <ul>
+                                            <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
+                                                    Years</small>
+                                            </li>
+                                            <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
+                                                    Main
+                                                    Street, 2nd Block,
+                                                    3rd Floor, New York</small></li>
+                                            <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                                    08am -
+                                                    05pm</small></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div class="event_wrapper wow animate__animated animate__fadeInRight">
                             <div class="">
                                 <div class="event_img_wrapper">
-                                    <img src="img/event1.webp" class="img-fluid" alt="">
+                                    <img src="img/event2.webp" class="img-fluid" alt="">
                                 </div>
                             </div>
                             <div class="">
@@ -44,159 +74,136 @@
                                                 08am -
                                                 05pm</small></li>
                                     </ul>
-
-
-
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
-                        <div class="">
-                            <div class="event_img_wrapper">
-                                <img src="img/event2.webp" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                        <div class="">
-                            <div class="event_content">
-                                <p class="event_head">Mother’s Day</p>
-
-
-                                <ul>
-                                    <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
-                                            Years</small>
-                                    </li>
-                                    <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
-                                            Main
-                                            Street, 2nd Block,
-                                            3rd Floor, New York</small></li>
-                                    <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
-                                            08am -
-                                            05pm</small></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper wow animate__animated animate__fadeInLeft">
-                        <div class="">
-                            <div class="event_img_wrapper">
-                                <img src="img/event3.webp" class="img-fluid" alt="">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div class="event_wrapper wow animate__animated animate__fadeInLeft">
+                            <div class="">
+                                <div class="event_img_wrapper">
+                                    <img src="img/event3.webp" class="img-fluid" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="">
-                            <div class="event_content">
-                                <p class="event_head">Mother’s Day</p>
+                            <div class="">
+                                <div class="event_content">
+                                    <p class="event_head">Mother’s Day</p>
 
 
-                                <ul>
-                                    <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
-                                            Years</small>
-                                    </li>
-                                    <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
-                                            Main
-                                            Street, 2nd Block,
-                                            3rd Floor, New York</small></li>
-                                    <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
-                                            08am -
-                                            05pm</small></li>
-                                </ul>
+                                    <ul>
+                                        <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
+                                                Years</small>
+                                        </li>
+                                        <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
+                                                Main
+                                                Street, 2nd Block,
+                                                3rd Floor, New York</small></li>
+                                        <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                                08am -
+                                                05pm</small></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
-                        <div class="">
-                            <div class="event_img_wrapper">
-                                <img src="img/event4.webp" class="img-fluid" alt="">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div class="event_wrapper wow animate__animated animate__fadeInRight">
+                            <div class="">
+                                <div class="event_img_wrapper">
+                                    <img src="img/event4.webp" class="img-fluid" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="">
-                            <div class="event_content">
-                                <p class="event_head">Mother’s Day</p>
+                            <div class="">
+                                <div class="event_content">
+                                    <p class="event_head">Mother’s Day</p>
 
 
-                                <ul>
-                                    <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
-                                            Years</small>
-                                    </li>
-                                    <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
-                                            Main
-                                            Street, 2nd Block,
-                                            3rd Floor, New York</small></li>
-                                    <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
-                                            08am -
-                                            05pm</small></li>
-                                </ul>
+                                    <ul>
+                                        <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
+                                                Years</small>
+                                        </li>
+                                        <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
+                                                Main
+                                                Street, 2nd Block,
+                                                3rd Floor, New York</small></li>
+                                        <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                                08am -
+                                                05pm</small></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper wow animate__animated animate__fadeInLeft">
-                        <div class="">
-                            <div class="event_img_wrapper">
-                                <img src="img/event5.webp" class="img-fluid" alt="">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div class="event_wrapper wow animate__animated animate__fadeInLeft">
+                            <div class="">
+                                <div class="event_img_wrapper">
+                                    <img src="img/event5.webp" class="img-fluid" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="">
-                            <div class="event_content">
-                                <p class="event_head">Mother’s Day</p>
+                            <div class="">
+                                <div class="event_content">
+                                    <p class="event_head">Mother’s Day</p>
 
 
-                                <ul>
-                                    <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
-                                            Years</small>
-                                    </li>
-                                    <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
-                                            Main
-                                            Street, 2nd Block,
-                                            3rd Floor, New York</small></li>
-                                    <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
-                                            08am -
-                                            05pm</small></li>
-                                </ul>
+                                    <ul>
+                                        <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
+                                                Years</small>
+                                        </li>
+                                        <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
+                                                Main
+                                                Street, 2nd Block,
+                                                3rd Floor, New York</small></li>
+                                        <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                                08am -
+                                                05pm</small></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-6 mt-4">
-                    <div class="event_wrapper wow animate__animated animate__fadeInRight">
-                        <div class="">
-                            <div class="event_img_wrapper">
-                                <img src="img/event6.webp" class="img-fluid" alt="">
+                    <a href="event-details.php" style="text-decoration: none;">
+                        <div class="event_wrapper wow animate__animated animate__fadeInRight">
+                            <div class="">
+                                <div class="event_img_wrapper">
+                                    <img src="img/event6.webp" class="img-fluid" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="">
-                            <div class="event_content">
-                                <p class="event_head">Mother’s Day</p>
+                            <div class="">
+                                <div class="event_content">
+                                    <p class="event_head">Mother’s Day</p>
 
 
-                                <ul>
-                                    <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
-                                            Years</small>
-                                    </li>
-                                    <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
-                                            Main
-                                            Street, 2nd Block,
-                                            3rd Floor, New York</small></li>
-                                    <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
-                                            08am -
-                                            05pm</small></li>
-                                </ul>
+                                    <ul>
+                                        <li><img src="img/icon_user.svg" class="img-fluid mr-3" alt=""><small>5-8
+                                                Years</small>
+                                        </li>
+                                        <li><img src="img/icon_location.svg" class="img-fluid mr-3" alt=""><small>55
+                                                Main
+                                                Street, 2nd Block,
+                                                3rd Floor, New York</small></li>
+                                        <li><img src="img/icon_time.svg" class="img-fluid mr-3" alt=""><small>Friday,
+                                                08am -
+                                                05pm</small></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     <!-- testimonial include -->
-    <?php include 'inc/testimonial.php';?>
+    <?php include 'inc/testimonial.php'; ?>
     <!-- testimonial include -->
     <!-- home blue section start here -->
     <section class="blue_sec">
@@ -226,5 +233,5 @@
 </section>
 
 <!-- Footer Include Here -->
-<?php include 'inc/footer.php';?>
+<?php include 'inc/footer.php'; ?>
 <!-- Footer Include Here -->
